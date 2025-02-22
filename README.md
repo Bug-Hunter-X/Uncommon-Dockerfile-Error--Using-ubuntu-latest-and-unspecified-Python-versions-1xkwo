@@ -1,0 +1,1 @@
+This repository demonstrates a common but subtle error in Dockerfiles: using `ubuntu:latest` and not specifying Python versions.  This can lead to build inconsistencies across different environments.  The `Dockerfile` showcases the problem, and `DockerfileFixed` provides a solution.
